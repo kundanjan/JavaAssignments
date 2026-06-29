@@ -1,4 +1,4 @@
-package com.mmcoe.assignment3;
+package com.mmcoe.assignment4;
 
 public class TestStackDs {
 	 public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.mmcoe.assignment4;
+package com.mmcoe.assignment5;
 
 public class Player {
 	private String name;

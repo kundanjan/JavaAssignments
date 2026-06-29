@@ -1,4 +1,4 @@
-package com.mmcoe.assignment3;
+package com.mmcoe.assignment4;
 
 public class QueueClass {
 	 private int[] queue;
