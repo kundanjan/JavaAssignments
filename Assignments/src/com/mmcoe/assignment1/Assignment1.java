@@ -1,4 +1,4 @@
-package assignment1;
+package com.mmcoe.assignment1;
 
 class Alpha
 {

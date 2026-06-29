@@ -1,6 +1,4 @@
-package assignment4;
-
-import java.util.Arrays;
+package com.mmcoe.assignment4;
 
 public class Team {
 	private String name;

@@ -1,4 +1,4 @@
-package assignment2;
+package com.mmcoe.assignment2;
 
 public class TestLibrary {
 

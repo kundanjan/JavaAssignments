@@ -1,4 +1,4 @@
-package assignment3;
+package com.mmcoe.assignment3;
 
 public class StackClass {
     private int[] stack;

@@ -1,4 +1,4 @@
-package assignment4;
+package com.mmcoe.assignment4;
 
 import java.util.Scanner;
 
