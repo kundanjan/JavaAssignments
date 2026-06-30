@@ -12,7 +12,13 @@ public class IPLMain {
 		String input = sc.nextLine().trim();
 		sc.close();
 
-		Team team = service.findTeamByName(input);
+		Team team = null;
+		try {
+			team = service.findTeamByName(input);
+		} catch (TeamNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		if (team != null)
 			service.displayTeam(team);
 		else

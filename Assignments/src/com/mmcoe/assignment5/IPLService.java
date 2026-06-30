@@ -20,12 +20,12 @@ public class IPLService {
 		return iplMap.get(team);
 	}
 
-	public Team findTeamByName(String name) {
+	public Team findTeamByName(String name) throws TeamNotFoundException {
 		for (Team t : iplMap.keySet()) {
 			if (t.getName().equalsIgnoreCase(name))
 				return t;
 		}
-		return null;
+		throw new TeamNotFoundException("Team not found with name: " + name);
 	}
 
 	public void displayTeam(Team team) {
